@@ -23,7 +23,8 @@ int main(){
     total = price * quantity;
 
 
-    printf("\nYou have bought %d %s", quantity, item);
-    printf("%c%.2f", currency, total);
+    // Code mới đã sửa:
+    printf("\nYou have bought %d %s ", quantity, item); // Thêm một khoảng trắng sau %s
+    printf("%c%.2f\n", currency, total);               // Thêm \n ở cuối để xuống dòng sạch sẽ
 
 }
